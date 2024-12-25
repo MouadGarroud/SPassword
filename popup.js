@@ -12,3 +12,4 @@ document.getElementById('COPY').addEventListener('click', function() {
   passwordField.select();
   document.execCommand('copy');
 });
+// Badass
