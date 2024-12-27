@@ -1,3 +1,4 @@
+// Mouad Garroud
 document.getElementById('generate').addEventListener('click', function() {
   const length = 20; 
   const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$£%&#@";
@@ -12,4 +13,3 @@ document.getElementById('COPY').addEventListener('click', function() {
   passwordField.select();
   document.execCommand('copy');
 });
-// Mouad Garroud
